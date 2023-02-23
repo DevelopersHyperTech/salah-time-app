@@ -44,6 +44,14 @@ nav.active{
     transition: transform  0.3s ease-in-out;
     position: fixed;
 }
+nav:hover{
+    transform: translateX(-10%);
+    transition: transform  0.3s ease-in-out;
+    position: fixed;
+}
+nav:hover .container{
+     opacity: 0.3;
+}
 .btn{
     position: absolute;
     top: 20px;
