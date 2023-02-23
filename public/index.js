@@ -13,5 +13,6 @@ navbar.addEventListener('click',function(){
 document.addEventListener('click', function(event) {
     if(navbar.classList.contains('active') &&   !event.target.isEqualNode(navbar) && !navbar.contains(event.target)) {
         navbar.classList.remove('active');
+        container.classList.remove('nav-active')
     }
   });
