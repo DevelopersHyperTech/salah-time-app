@@ -82,6 +82,6 @@ https.get(url,function(response){
 
 
 // 
-app.listen(3000,function (){
+app.listen(3000 || process.env.PORT,function (){
     console.log('server is working on port 5000');
 })
